@@ -1,0 +1,49 @@
+{
+    "id": "test-1",
+    "name": "TestName",
+    "version": "1.0.0",
+    "author": "chgocn",
+    "description": "Test",
+    "tags": [
+        "custom:test"
+    ],
+    "filters": [
+        {
+            "id": "test-filter",
+            "name": "Test 1",
+            "pattern": "test",
+            "isRegex": false,
+            "caseSensitive": true,
+            "color": "#FF5722",
+            "enabled": true
+        },
+        {
+            "id": "test-filter-2",
+            "name": "Test 2",
+            "pattern": "test2",
+            "isRegex": false,
+            "caseSensitive": true,
+            "color": "#F44336",
+            "enabled": true
+        }
+    ],
+    "exceptionRules": [
+        {
+            "id": "test-exception",
+            "name": "Test Exception",
+            "pattern": "test----",
+            "severity": "error",
+            "description": "Test Exception"
+        }
+    ],
+    "logFormats": [],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2024-12-30",
+            "changes": [
+                "Initial release with ANR and native crash detection"
+            ]
+        }
+    ]
+}
